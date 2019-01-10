@@ -28,7 +28,6 @@ endif
 PRODUCT_PLATFORM := yoshino
 
 # NFC
-NXP_CHIP_TYPE := PN553
 NXP_CHIP_FW_TYPE := PN553
 
 BOARD_KERNEL_CMDLINE += androidboot.hardware=maple
@@ -42,8 +41,6 @@ BOARD_USERDATAIMAGE_PARTITION_SIZE := 54587727872
 
 # Device witout a vendor partition
 TARGET_COPY_OUT_VENDOR := system/vendor
-
-BOARD_ROOT_EXTRA_SYMLINKS := /system/vendor/lib/dsp:/dsp
 
 TARGET_USES_CASH_EXTENSION := true
 
